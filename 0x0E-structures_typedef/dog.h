@@ -15,13 +15,13 @@ struct dog
 };
 
 /**
- * doge - typedef dog
+ * dog_t - typedef dog
  */
 typedef struct dog doge;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
-doge *new_dog(char *name, float age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(doge *d);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
