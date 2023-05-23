@@ -5,7 +5,7 @@
  * free_dog: frees up memory
  * @d:free from struct dog
  */
-void free_dog(dog_t*d)
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
