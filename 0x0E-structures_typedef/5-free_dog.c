@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * free_dog: frees up memory
- * @d:free from struct dog
+ * free_dog - frees up memory designated for a dog structure.
+ *@d:Pointer to the dog struct to free.
  */
 void free_dog(dog_t *d)
 {
